@@ -37,3 +37,7 @@ cacheSolve <- function(x, ...) {
         x$setinv(m)
         m
 }
+
+#Check/test the code
+mat1 <- makeCacheMatrix(x=matrix(1:32,4,4))
+cacheSolve(mat1)
